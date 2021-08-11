@@ -1,0 +1,11 @@
+{
+    "singleQuote": true,
+    "trailingComma": "none",
+    "endOfLine": "auto",
+    "overrides": [{
+      "files": ["*.html"],
+      "options": {
+        "printWidth": 120
+      }
+    }]
+  }
