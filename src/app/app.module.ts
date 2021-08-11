@@ -10,15 +10,13 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { FormsModule } from '@angular/forms';
-import {
-  DropdownDirective,
-  DropdownMenuDirective,
-  DropdownToggleDirective
-} from './shared/dropdown.directive';
+import { DropdownDirective } from './shared/dropdown/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { AppRoutingModule } from './app-routing.module';
 import { InfoMessageComponent } from './info-message/info-message.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
+import { DropdownMenuDirective } from './shared/dropdown/dropdown-menu.directive';
+import { DropdownToggleDirective } from './shared/dropdown/dropdown-toggle.directive';
 
 @NgModule({
   declarations: [
